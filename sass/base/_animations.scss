@@ -1,0 +1,63 @@
+/* Animation for .heading-primary-main */
+@keyframes moveToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* Animation for .heading-primary-sub */
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* Animation for Logo */
+@keyframes rotateLogo {
+  0% {
+    opacity: 0;
+    height: 7rem;
+  }
+  35% {
+    height: 5rem;
+  }
+  75% {
+    height: 4rem;
+  }
+
+  100% {
+    opacity: 1;
+    height: 3.5rem;
+  }
+}
